@@ -1,9 +1,9 @@
 use suco;
 
-create table tbVendedores(
+create table tb_Vendedores(
 
-MATRICULA varchar(5),
-NOME_VENDEDOR varchar(100),
-PERCENTUAL_COMISSAO float
+matricula varchar(5),
+nome varchar(100),
+percentual_comissao float
 
 );
