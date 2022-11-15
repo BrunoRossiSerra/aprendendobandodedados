@@ -22,3 +22,6 @@ insert into tb_vendedores values(
 ('0001','Carla Renda',12,0);
 
 select * from tb_vendedores;
+
+
+
