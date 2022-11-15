@@ -19,3 +19,5 @@ where day(data_nascimento) > 10;
 
 select nome, data_nascimento from tbcliente
 where month(data_nascimento)=3;
+
+select * from tb_vendedores;
