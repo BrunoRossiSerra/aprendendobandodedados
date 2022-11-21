@@ -17,6 +17,9 @@ change profissao prof varchar(27);
 alter table pessoas
 rename to cadastro_pessoas;
 
+alter table cadastro_pessoas
+rename to pessoas;
+
 create table if not exists cursos(
 nome varchar (30) not null unique, 
 descricao text,
