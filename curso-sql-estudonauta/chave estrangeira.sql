@@ -23,3 +23,9 @@ from gafanhotos inner join cursos
 on cursos.idcurso = gafanhotos.cursopreferido
 order by cursos.nome;
 
+select gafanhotos.nome, gafanhotos.cursopreferido,
+cursos.nome, cursos.ano
+from gafanhotos right outer join cursos
+on cursos.idcurso = gafanhotos.cursopreferido
+order by cursos.nome;
+
